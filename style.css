@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  background: #E1FF8F;
+  height: 800px;
+}
+.top__star1 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 69px;
+  left: 156px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.top__star2 {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 94px;
+  left: 63px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.top__star-big {
+  position: absolute;
+  left: 853px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.top__star3 {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  top: 568px;
+  left: 1013px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.top__star4 {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 538px;
+  left: 948px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.top__title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.02px;
+  width: 769px;
+  padding-top: 196px;
+}
+.top__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 720px;
+  padding-top: 24px;
+}
+.top_btn {
+  padding-top: 48px;
+}/*# sourceMappingURL=style.css.map */

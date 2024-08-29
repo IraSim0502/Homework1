@@ -1,0 +1,84 @@
+@import 'vars';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.top{
+    background: #E1FF8F;
+    height: 800px;
+    &__star1{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 69px;
+        left: 156px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+    &__star2{
+        position: absolute;
+        width: 57px;
+        height: 57px;
+        top: 94px;
+        left: 63px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+    &__star-big{
+        position: absolute;
+        left: 853px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+    &__star3{
+        position: absolute;
+        width: 83px;
+        height: 83px;
+        top: 568px;
+        left: 1013px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+    &__star4{
+        position: absolute;
+        width: 37px;
+        height: 37px;
+        top: 538px;
+        left: 948px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+
+
+    }
+    &__title{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78.02px;
+        width: 769px;    
+        padding-top: 196px;
+    }
+    &__text{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 720px;
+        padding-top: 24px;
+    }
+    &_btn{
+        padding-top: 48px;
+
+    }
+}
