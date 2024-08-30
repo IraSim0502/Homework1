@@ -68,6 +68,7 @@ body {
   line-height: 78.02px;
   width: 769px;
   padding-top: 196px;
+  color: #202027;
 }
 .top__text {
   font-size: 24px;
@@ -75,7 +76,250 @@ body {
   line-height: 32px;
   width: 720px;
   padding-top: 24px;
+  color: #202027;
 }
-.top_btn {
+.top__btn {
+  margin-top: 48px;
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  color: #FFFFFF;
+  background-color: #202027;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.01px;
+  transition: 1s;
+}
+.top__btn:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.about {
+  background: #202027;
+}
+.about__star1 {
+  position: absolute;
+  width: 584.72px;
+  height: 584.72px;
+  top: 945.92px;
+  left: 933px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.about__star2 {
+  position: absolute;
+  width: 31.34px;
+  height: 31.34px;
+  top: 1570px;
+  left: 28px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.about__star3 {
+  position: absolute;
+  width: 54.6px;
+  height: 54.6px;
+  top: 1622px;
+  left: 45px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.about__title {
+  padding-top: 94px;
+}
+.about__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 788px;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+.about__game {
+  padding-top: 72px;
+  display: grid;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  grid-template-columns: repeat(3, 4fr);
+  padding-bottom: 50px;
+}
+.about__game-all {
+  background: #FFFFFF;
+  border-radius: 30px;
+  z-index: 1;
+  transition: 1s;
+}
+.about__game-all:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.about__game-1, .about__game-3 {
+  height: 473px;
+}
+.about__game-2, .about__game-5 {
+  height: 512px;
+}
+.about__game-4, .about__game-6 {
+  height: 551px;
+}
+.about__game-5 {
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.img {
+  border-radius: 30px;
+}
+
+.gamenum {
+  background: #F7F7F7;
+  border-radius: 50px;
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 112px;
+  height: 36px;
+  padding: 9px 16px;
+  text-align: center;
+  font-family: Montserrat;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #202027;
+}
+
+.gamedes {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-right: 32px;
+}
+
+.games {
+  background: #202027;
+}
+.games__star1 {
+  position: absolute;
+  width: 35.15px;
+  height: 35.15px;
+  top: 2363px;
+  left: 1281.33px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.games__star2 {
+  position: absolute;
+  width: 68.86px;
+  height: 68.86px;
+  top: 2396px;
+  left: 1326.54px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.games__star3 {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  top: 5636px;
+  left: 1319px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.games__star4 {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 5684px;
+  left: 1249px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.games__title {
+  padding-top: 46px;
+}
+.games__card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 72px;
+  padding-bottom: 144px;
+}
+.games-img {
+  height: 500px;
+  width: 600px;
+}
+.games__card-all {
+  background: #FFFFFF;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.games__card-group {
+  display: flex;
+  flex-direction: column;
   padding-top: 48px;
+  padding-left: 48px;
+}
+.games-btn {
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  background: #202027;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  transition: 1s;
+}
+.games-btn:hover {
+  color: #202027;
+  background: #FFFFFF;
+  border: 1px solid #202027;
+  cursor: pointer;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 36px;
+  width: 457px;
+}
+
+.footer {
+  background-color: #BCEC30;
+  height: 150px;
+}
+.footer__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  padding-top: 60px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
