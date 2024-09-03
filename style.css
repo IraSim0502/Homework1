@@ -39,7 +39,7 @@ body {
 }
 .top__star-big {
   position: absolute;
-  left: 853px;
+  left: 59%;
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
@@ -105,7 +105,7 @@ body {
   width: 584.72px;
   height: 584.72px;
   top: 945.92px;
-  left: 933px;
+  left: 63%;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
@@ -172,6 +172,12 @@ body {
   margin-top: 32px;
 }
 
+.anchor {
+  text-decoration: none;
+  z-index: 1;
+  color: #202027;
+}
+
 .title {
   font-size: 64px;
   font-weight: 700;
@@ -188,8 +194,7 @@ body {
   border-radius: 50px;
   margin-top: 32px;
   margin-left: 32px;
-  width: 112px;
-  height: 36px;
+  width: 80px;
   padding: 9px 16px;
   text-align: center;
   font-family: Montserrat;
