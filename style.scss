@@ -16,53 +16,9 @@ body{
 .top{
     background: $colorTop;
     height: 800px;
-    &__star1{
-        position: absolute;
-        width: 35px;
-        height: 35px;
-        top: 69px;
-        left: 156px;
-        gap: 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-    }
-    &__star2{
-        position: absolute;
-        width: 57px;
-        height: 57px;
-        top: 94px;
-        left: 63px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-    }
-    &__star-big{
-        position: absolute;
-        left: 59%;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-
-    }
-    &__star3{
-        position: absolute;
-        width: 83px;
-        height: 83px;
-        top: 568px;
-        left: 1013px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-    }
-    &__star4{
-        position: absolute;
-        width: 37px;
-        height: 37px;
-        top: 538px;
-        left: 948px;
-        gap: 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-
-
-    }
+    background-image: url(./img/bgtop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     &__title{
         font-size: 64px;
         font-weight: 700;
@@ -326,3 +282,7 @@ body{
     text-align: center;
     }
 }
+
+@import 'tablet';
+
+@import 'mobile';
