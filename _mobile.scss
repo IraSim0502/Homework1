@@ -1,0 +1,112 @@
+@media (max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top{
+        height: 700px;
+        background-image: url(img/bgtopmob.svg);
+        &__title{
+            font-size: 40px;
+            line-height: 49px;   
+            padding-top: 147px;
+            padding-left: 58px;
+            width: 262px;
+            color: $colorBasic;
+            text-align: center;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 19px;
+            width: 296px;
+            padding-top: 24px;
+        }
+        &__btn{
+            margin-top: 36px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 23px;
+            transition: 1s;
+        }
+        &__btn:hover{
+            color: #000000;
+            background-color: $colorExtra;
+            cursor: pointer;
+        }
+    }
+
+    .about{
+        display: none;
+    }
+    .title{
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .subtitle{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .desc{
+        font-size: 16px;
+        line-height: 19px;   
+        padding-top: 16px;
+        padding-bottom: 32px;
+        max-width: 285px;
+    }
+    .games{
+        &__title{
+            padding-top: 48px;
+        }
+        &__card{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+        &-img{
+            height: 285px;
+            width: 343px;
+        }
+        &__card-all{
+            background: $colorExtra;
+            border-radius: 30px;
+            display: flex;
+            width: 343px;
+        }
+        &__card-1 , &__card-3 , &__card-5{
+            flex-direction: column-reverse;
+        }
+        &__card-2 , &__card-4 , &__card-6{
+        flex-direction: column;
+        }
+        &__card-group{
+            display: flex;
+            flex-direction: column;
+            padding-top: 29px;
+            padding-left: 29px;
+        }
+        &-btn{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 23px;
+            transition: 1s;
+            margin-bottom: 32px;
+        }
+        &__star1, &__star2, &__star3, &__star4{
+            display: none;
+        }
+    }
+    .footer{
+        height: 100px;
+        &__title{
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 40px;
+        text-align: center;
+        }
+    }
+}

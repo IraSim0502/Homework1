@@ -1,0 +1,172 @@
+@media (max-width: 1024px) {
+    .center{
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .top{
+        background: $colorTop;
+        height: 700px;
+        background-image: url(./img/bgtop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__title{
+            font-size: 56px;
+            line-height: 64px;
+            width: 769px;    
+            padding-top: 196px;
+            color: $colorBasic;
+        }
+        &__text{
+            font-size: 18px;
+            line-height: 28px;
+            width: 720px;
+            padding-top: 24px;
+            color: $colorBasic;
+        }
+        &__btn{
+            margin-top: 36px;
+            width: 220px;
+            height: 55px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    .about{
+        background: $colorBasic;
+        &__star1, &__star2, &__star3{
+            display: none;
+        }
+        &__title{
+            padding-top: 64px;
+        }
+        &__text{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            width: 650px;
+            color: $colorExtra;
+            padding-top: 18px;
+        }
+        &__game{
+            padding-top: 64px;
+            display: grid;
+            gap: 32px;
+            grid-template-columns: repeat(2,4fr); 
+            padding-bottom: 42px;
+    
+            &-all{
+                background: $colorExtra;
+                border-radius: 30px;
+                transition: 1s;
+                height: 530px;
+                
+            }
+            &-all:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            &-5{
+                margin-top: 0px;
+            }
+        }
+    
+    }
+    .anchor{
+       text-decoration: none; 
+       z-index: 1;
+       color: $colorBasic;
+    }
+    .img{
+        border-radius: 30px;
+    }
+    
+    .gamenum{
+        background: #F7F7F7;
+        border-radius: 50px;
+        margin-top: 32px;
+        margin-left: 32px;
+        width: 80px;
+        padding: 9px 16px;
+        text-align: center;
+        font-family: Montserrat;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17px;
+        color: $colorBasic;
+    }
+    .gamedes{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        margin-left: 32px;
+        margin-top: 16px;
+        margin-right: 32px;
+    }
+    
+    .games{
+        background: $colorBasic;
+        &__star1, &__star2, &__star3, &__star4{
+            display: none;
+        }
+        &__title{
+            padding-top: 0px;
+        }
+        &__card{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-top: 34px;
+            padding-bottom: 85px;
+        }
+        &-img{
+            height: 300px;
+            width: 400px;
+        }
+        &__card-all{
+            background: $colorExtra;
+            border-radius: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 850px;
+        }
+        &__card-group{
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+        &-btn{
+            width: 220px;
+            height: 55px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .subtitle{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .desc{
+        font-size: 18px;
+        line-height: 24px;   
+        padding-top: 18px;
+        padding-bottom: 28px;
+    }
+    
+    .footer{
+        background-color: $colorBg;
+        height: 100px;
+    
+        &__title{
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 40px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
