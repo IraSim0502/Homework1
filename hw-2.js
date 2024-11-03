@@ -1,6 +1,6 @@
 //Задание 1
-let a;
-a = 10;
+let a = 10;
+alert (a);
 a = 20;
 alert (a);
 
@@ -50,6 +50,8 @@ const user = {
     name: 'Ирина',
     age: 23,
     isAdmin: Boolean(1),
+    isUser: true,
+    isA: false,
    }
 
 //Задание 10
