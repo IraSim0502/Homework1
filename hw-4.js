@@ -99,4 +99,3 @@ const book = {
 for (const key in book) {
     console.log(`${key} - ${book[key]}`);
 }
-
